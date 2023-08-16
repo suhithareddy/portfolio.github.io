@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PROJECT</title>
+    <link rel="icon" href="project icon.png">
+    <style>
+        *{
+            background-color: #001C30;
+            background-image: url("project2.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+       
+        
+        h1{
+            text-align: center;
+            color:aqua;
+            border:5px solid aqua;
+            width:13%;
+            margin-left:42%;
+            font-style: oblique;
+        }
+        h3{
+            color:rgb(183, 139, 28);
+            font-size:21px;
+            text-decoration: underline;
+            
+           
+        }
+        p{
+            color:white;
+            font-size:18px;
+            word-spacing: 4px;
+        }
+        #para{
+            color:white;
+            font-size:18px;
+            margin-left:40px ;
+        }
+        #para1{
+            color:white;
+            font-size:18px;
+            text-align:justify;
+
+        }
+        ul{
+            color:white;
+            font-size:19px;
+        }
+        img{
+            margin-left:25%;
+            border:3px solid aqua;
+            
+        }
+        ol{
+            color:white;
+            font-size:19px;
+        }
+        
+            
+        
+           
+        
+    </style>
+</head>
+<body>
+    <h1>PROJECTS</h1>
+    <h3>TITLE : WATER QUALITY AND PIPELINE MONITORING SYSTEM</h3>
+    <p>Authors : D.Suhitha Reddy , P.Somashekar , P.Satwika , S.Preetham, P.Pujitha</p>
+    <p>Team Leader : D.Suhitha Reddy</p>
+    <h3>My role : I am a Team Leader of this project</h3>
+    <h3>OBJECTIVE OF THIS PROJECT:</h3>
+    <p id="para"> The main objective of this project is controlling the 
+        the contamination and wastage of water. And also it checks the water quality by using Sensors.</p>
+    <h3>ABSTRACT :</h3>
+    <p id="para1"> People nowadays always want something that can make their life easier. To fulfil the requirement of the people we develop
+        the smart water   monitoring system for home or office. In this the water  monitoring systems such as water pollution monitoring 
+        and water pipeline leakage sensing monitoring. This system is used to avoid the huge amount of water is being wasted by uncontrolled
+        use of home and offices and also in agriculture. In this system we use the sensors to check the pipe leakage and water quality. Leak 
+        detection in water pipelines, we use the Flow sensor to leak detection, it will check the water quality by using the pH value, 
+        Turbidity and the TDS of the water. The values are continuously updated to cloud server and is displayed on LCD. Here the extra 
+        feature is added that is to distribute the Water at certain timings we have to set the timings based on the timings water will 
+        distribute so that we can decrease the wastage of water.</p>
+        <h3>KEY COMPONENTS : </h3>
+        <ul style="list-style-type: circle;">
+            <li>Arduino Mega</li>
+            <li>PH Sensor</li>
+            <li>FLOW SENSOR</li>
+            <li>Turbidity Sensor</li>
+            <li>TDS Sensor</li>
+            <li>Temperature Sensor</li>
+            <li>RTC Module</li>
+            <li>GSM Module</li>
+            <li>Relay</li>
+            <li>DC Pump</li>
+            <li>Power Supply</li>
+            <li>Arduino IDE</li>
+            <li>Embedded C</li>
+        </ul>
+        <h3>PROJECT EXPERIMENTAL SETUP : </h3>
+        <img src="experemint setup.png" height="400" width="800" alt=""><br><br>
+        <h3>RESULT AND DISCUSSION :</h3>
+        <ol>
+            <li>FirstlyFirstly we give the power supply and set the time using RTC Module.
+                 By using this 3 instructions ( MODE,CHANGE and SET) we set a time. 
+                 After completion of that time the Pump will begin to check the water
+                quality. First the Flow rate will be “zero” because there is no any flow of water
+                 between the flow sensor.<br><br><br>
+                </li>
+                <img src="Picture2.png" height="200px" weight="200px" alt=""><br><br>
+                <li>Then we check the Water quality by using TDS Sensor,Temperature Sensor ,Turbidity Sensor and PH Sensor.
+                    After completion of measuring ,the values will display on LCD Screen.The below figure shows the TDS value
+                and Temperature value. </li><br><br>
+                <img src="Picture1.png" height="200px" weight="200px"  alt=""><br><br>
+                <li>Next we get the Turbidity value.Turbidity value for good water is not more than 1. 
+                    If its exceeds the Turbidity value more than 1 it displays the msg as  “heavy  turbidity”
+                <br><br></li>
+                <img src="Picture4.png" height="300px" weight="300px"  alt=""><br><br>
+                <li>Then PH value will display on the Screen as shown in fig 4.6.If PH value is less than 7 
+                    the water is acidic, PH value is greater than 7 then the water is  basic if PH  value equals to 7 then
+                     the water is neutral. <br><br></li>
+                <img src="Picture5.png" height="300px" weight="200px"  alt="">
+        </ol>
+        <h3>APPLICATIONS : </h3>
+        <ul style="list-style-type: circle;">
+        
+            <li>Water and Air Quality</li>
+            <li>Drinking water distributing systems </li>
+            <li>Lake, River, Sea water monitoring</li>
+        </ul>
+        <h3>CONCLUSION : </h3>
+        <p> The monitoring of the water quality is done successfully using pH, Turbidity and TDS sensors by detecting nature
+            of the water and the particles present in the water. The system automatically monitors the water quality and is low cost.
+            So the water quality testing is likely to be more economical, convenient and fast. The system has good flexibility. Only by 
+            replacing the corresponding sensors and changing the relevant software programs, this system can be used to monitor other water 
+            quality parameters. The operation is simple.</p>
+
+
+
+        
+
+
+    
+</body>
+</html>
